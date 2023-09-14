@@ -505,6 +505,9 @@ footer .socials svg:hover {
   .clients {
     margin: -20rem 5rem 0;
   }
+  .clients h4 {
+    font-size: 20px;
+  }
   .clients .clients-logos {
     display: flex;
     flex-direction: row;
