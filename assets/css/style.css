@@ -175,8 +175,8 @@ nav {
   right: -30px;
   top: 65px;
   background-color: hsl(198, 62%, 26%);
-  border-radius: 10px;
-  padding: 1rem;
+  border-radius: 20px;
+  padding: 2rem;
   transition: ease-in 0.2s;
 }
 nav.visible {
@@ -186,13 +186,14 @@ nav ul a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   padding: 0.5rem;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 nav ul a:visited {
   color: hsl(0, 0%, 100%);
 }
 nav ul a:hover {
-  background-color: hsl(168, 34%, 41%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(198, 62%, 26%);
 }
 
 .transform {
@@ -367,4 +368,240 @@ footer .socials {
 }
 footer .socials svg {
   color: hsl(167, 40%, 24%) !important;
+}
+
+@media only screen and (min-width: 870px) {
+  .logo .sunny-logo {
+    margin-left: -20rem;
+  }
+  .logo img {
+    margin-top: 2rem;
+  }
+  .logo .hamburger {
+    visibility: hidden;
+  }
+  nav {
+    opacity: 1;
+    background-color: transparent;
+    width: 30%;
+    top: 0;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav ul a {
+    padding: 1rem 1.5rem;
+  }
+  .title {
+    padding-top: 5rem;
+  }
+  .transform {
+    margin-top: 0rem;
+    flex-direction: row-reverse;
+    height: 100vh;
+  }
+  .transform img {
+    width: 50%;
+    height: auto;
+  }
+  .transform .transform-text {
+    margin-top: 5rem;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 5rem 5rem 0;
+    height: 200vh;
+  }
+  .transform .transform-text h2 {
+    margin-left: 2rem;
+  }
+  .transform .transform-text button {
+    margin-left: 2rem;
+  }
+  .stand {
+    margin-top: 0rem;
+    flex-direction: row;
+  }
+  .stand img {
+    width: 50%;
+  }
+  .stand .stand-text {
+    justify-content: flex-end;
+    text-align: left;
+    margin: 5rem 5rem 0;
+    height: 200vh;
+  }
+  .stand .stand-text h2 {
+    margin-left: 2rem;
+  }
+  .stand .stand-text button {
+    margin-left: 2rem;
+  }
+  .graphic-photo {
+    margin-top: -14rem;
+    flex-direction: row;
+  }
+  .graphic-photo .graphic {
+    background-size: 100%;
+  }
+  .graphic-photo .graphic h3 {
+    margin-top: 35rem;
+  }
+  .graphic-photo .graphic p {
+    margin: 2rem 7rem 0;
+  }
+  .graphic-photo .photo {
+    background-size: 100%;
+  }
+  .graphic-photo .photo h3 {
+    margin-top: 35rem;
+  }
+  .graphic-photo .photo p {
+    margin: 2rem 7rem 0;
+  }
+  .clients {
+    margin: -20rem 5rem 0;
+  }
+  .clients .clients-logos {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  footer .list-footer ul {
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .logo .sunny-logo {
+    margin-left: -30rem;
+    width: 200px;
+  }
+  .logo img {
+    margin-top: 2rem;
+  }
+  .logo .hamburger {
+    visibility: hidden;
+  }
+  .title {
+    padding-top: 5rem;
+  }
+  .title h1 {
+    margin-top: 2rem;
+    font-size: 6rem;
+  }
+  .title img {
+    width: 60px !important;
+    height: auto;
+    margin-top: 8rem !important;
+  }
+  nav {
+    opacity: 1;
+    background-color: transparent;
+    width: 30%;
+    top: 0;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav ul a {
+    padding: 1rem 1.5rem;
+  }
+  .transform {
+    margin-top: 0rem;
+    flex-direction: row-reverse;
+    height: 100vh;
+  }
+  .transform img {
+    width: 50%;
+    height: auto;
+  }
+  .transform .transform-text {
+    margin-top: 20rem !important;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 5rem 5rem 0;
+    height: 200vh;
+  }
+  .transform .transform-text h2 {
+    margin-left: 2rem;
+  }
+  .transform .transform-text button {
+    margin-left: 2rem;
+  }
+  .stand {
+    margin-top: 0rem;
+    flex-direction: row;
+  }
+  .stand img {
+    width: 50%;
+  }
+  .stand .stand-text {
+    justify-content: flex-end;
+    text-align: left;
+    margin: 15rem 5rem 0;
+    height: 200vh;
+  }
+  .stand .stand-text h2 {
+    margin-left: 2rem;
+  }
+  .stand .stand-text button {
+    margin-left: 2rem;
+  }
+  .graphic-photo {
+    margin-top: -14rem;
+    flex-direction: row;
+  }
+  .graphic-photo .graphic {
+    background-size: 100%;
+  }
+  .graphic-photo .graphic h3 {
+    margin-top: 35rem;
+  }
+  .graphic-photo .graphic p {
+    margin: 2rem 7rem 0;
+  }
+  .graphic-photo .photo {
+    background-size: 100%;
+  }
+  .graphic-photo .photo h3 {
+    margin-top: 35rem;
+  }
+  .graphic-photo .photo p {
+    margin: 2rem 7rem 0;
+  }
+  .clients {
+    margin: -50rem 5rem 0;
+  }
+  .clients .clients-logos {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  footer {
+    height: 50vh;
+  }
+  footer .list-footer ul {
+    justify-content: center;
+    gap: 5rem;
+  }
+  footer .list-footer ul li a {
+    font-size: 2.5rem !important;
+  }
+  footer .socials {
+    scale: 150%;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  body {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

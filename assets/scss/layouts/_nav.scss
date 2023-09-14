@@ -6,8 +6,8 @@ nav{
     right: -30px;
     top: 65px;
     background-color: $--darkBlue;
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: 20px;
+    padding: 2rem;
     transition: ease-in 0.2s;
 
     &.visible{
@@ -20,7 +20,7 @@ nav{
             text-decoration: none;
             color: $--white;
             padding: 0.5rem;
-            border-radius: 10px;
+            border-radius: 25px;
             
     
             &:visited{
@@ -28,7 +28,8 @@ nav{
             }
 
             &:hover{
-                background-color: $--darkCyanM;
+                background-color: $--white;
+                color: $--darkBlue;
             }
         }
         
