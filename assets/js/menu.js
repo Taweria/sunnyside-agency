@@ -18,3 +18,5 @@ function switchMenu() {
         menu.classList.add("visible");
     }
 }
+
+// document.getElementById('focus').focus();

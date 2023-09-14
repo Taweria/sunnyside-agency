@@ -6,9 +6,14 @@
         line-height: 0.5rem;
         padding-top: 3rem;
         margin-bottom: 2.5rem;
-        border-bottom: 8px solid $--yellow;
+        border-bottom: 8px solid hsla(51, 100%, 49%, 0.25);
         width: 10rem;
         margin: auto;
+
+        &:hover{
+            border-bottom: 8px solid hsla(51, 100%, 49%, 1);
+            cursor: pointer;
+        }
         
     }
 }
@@ -21,9 +26,13 @@
         line-height: 0.5rem;
         padding-top: 3rem;
         margin-bottom: 2.5rem;
-        border-bottom: 8px solid $--softRed;
+        border-bottom: 8px solid rgba(254, 121, 103, 0.25);
         width: 10rem;
         margin: auto;
         
+        &:hover{
+            border-bottom: 8px solid rgba(254, 121, 103, 1);
+            cursor: pointer;
+        }
     }
 }

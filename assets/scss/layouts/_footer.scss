@@ -1,5 +1,5 @@
 footer{
-    background-color: $--darkCyanM;
+    background-color: #90D4C6;
     width: 100%;
     height: 70vh;
     
@@ -28,12 +28,18 @@ footer{
             li{
                 list-style: none;
                 color: $--darkCyanD;
+                
     
                 a{
                     text-decoration: none;
                     color: $--darkCyanD;
                     font-weight: bolder;
                     font-size: 1.2rem;
+                    padding: 1rem 2rem;
+
+                    &:hover{
+                        color: $--white;
+                    }
                 }
             };
         }
@@ -49,7 +55,14 @@ footer{
 
         svg{
             color: $--darkCyanD !important;
+
+            &:hover{
+                color: $--white !important;
+                cursor: pointer;
+            }
         }
+
+        
     }
     
 }
