@@ -1,0 +1,60 @@
+body{
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    color: $--white;
+    line-height: 3.5rem;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    color: $--veryDarkBlueD;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    color: $--darkGrayishBlue;
+    font-weight: bold;
+    line-height: 2rem;;
+}
+
+button{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Fraunces', serif;
+    color: $--darkGrayishBlue;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+h5{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    color: $--veryDarkBlueD;
+}
+
+h6{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    color: $--darkGrayishBlue;
+    font-size: 0.9rem;
+}

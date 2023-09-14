@@ -1,0 +1,36 @@
+header{
+    background-image: url("../../assets/storage/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    
+
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        gap: 8rem;
+        
+        img{
+            margin-top: 2rem;
+        }
+
+        button{
+            background-color: inherit;
+            border: none;
+        }
+    }
+
+    .title{
+        justify-content: center;
+        text-align: center;
+        margin-top: 3.5rem;
+
+
+        img{
+            width: 45px;
+            margin-top: 3.3rem;
+        }
+    }
+}
