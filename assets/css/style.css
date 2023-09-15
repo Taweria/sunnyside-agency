@@ -224,7 +224,6 @@ nav ul a:hover {
   text-align: center;
   width: 100%;
   height: 100vh;
-  margin-top: 3.8rem;
 }
 .transform img {
   width: 110%;
@@ -267,7 +266,7 @@ nav ul a:hover {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 180vh;
+  height: 160vh;
   margin-top: 10rem;
 }
 .graphic-photo .graphic {
@@ -649,4 +648,4 @@ footer .socials svg:hover {
   body {
     font-size: 30px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
