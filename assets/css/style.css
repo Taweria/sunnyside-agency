@@ -198,7 +198,7 @@ nav .bubble {
   border-left: 30px solid transparent;
   border-top: 30px solid transparent;
   border-right: 30px solid hsl(0, 0%, 100%);
-  top: -30px;
+  top: -28px;
   right: 0;
 }
 nav ul a {
