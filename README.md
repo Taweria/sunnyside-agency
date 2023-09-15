@@ -1,7 +1,7 @@
 # sunnyside-agency
 
 ## What's the project?
-**It's a website about an agency. Done based on a design given by my coach.**
+**It's a website about an agency. Done based on a design given by our coach.**
 
 I did this project during my training at BeCode.org.
 
