@@ -13,6 +13,8 @@
         .hamburger{
             visibility: hidden;
         }
+
+        
     }
 
    
@@ -23,7 +25,10 @@
         width: 30%;
         top: 0;
         
-
+        .bubble{
+            opacity: 0;
+        }
+        
         ul{
             display: flex;
             flex-direction: row;

@@ -415,6 +415,9 @@ footer .socials svg:hover {
     width: 30%;
     top: 0;
   }
+  nav .bubble {
+    opacity: 0;
+  }
   nav ul {
     display: flex;
     flex-direction: row;
@@ -547,6 +550,9 @@ footer .socials svg:hover {
     background-color: transparent;
     width: 30%;
     top: 0;
+  }
+  nav .bubble {
+    opacity: 0;
   }
   nav ul {
     display: flex;
