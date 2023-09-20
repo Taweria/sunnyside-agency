@@ -145,6 +145,10 @@ h6 {
   cursor: pointer;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-image: url("../../assets/storage/image-header.jpg");
   background-size: cover;
